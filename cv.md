@@ -30,4 +30,4 @@ github: *https://github.com/AnnaFeona*
 
 
 ## Hobby and interests
-* I'm 
+* I like traveling, reading
