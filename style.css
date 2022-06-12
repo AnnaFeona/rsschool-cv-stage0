@@ -2,15 +2,67 @@
     box-sizing: border-box;
   }
 
-.header {
-    border: 1px solid red;
-}
-
-.footer {
-    border: 1px solid red;
-}
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Hind Siliguri', sans-serif;
   }
+
+.header {
+    background-color:lightslategray;
+    border: 1px solid red;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: white; 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:lightslategray;
+    color: white;
+    font-size: 20px;
+    border: 1px solid red;
+}
+
+.footer-link{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 300;
+    color: white;
+}
+
+.rss{
+    width: 125px;
+    height: auto;
+    background-image: url(./assets/img/rs_school_js.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+}
+
+
+
+
