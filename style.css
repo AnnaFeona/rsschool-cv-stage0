@@ -43,7 +43,6 @@ body {
     background-color:lightslategray;
     color: white;
     font-size: 20px;
-    border: 1px solid red;
 }
 
 .footer-link{
@@ -55,12 +54,11 @@ body {
 }
 
 .rss{
-    width: 125px;
+    width: 120px;
     height: auto;
     background-image: url(./assets/img/rs_school_js.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 10px;
 }
 
 
