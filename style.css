@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    min-height: 100vh;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color:ghostwhite;
+    color: black;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+ }
+
+.header {
+    background-color:lightslategray;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: white; 
+}
+
+.main {
+    margin-bottom: auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.section {
+    width: calc(50% - 10px);
+    padding: 10px; 
+    padding-bottom: 35px;
+    border-bottom: 1px solid #7c7a86;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+.section-profile {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #ccc9d7;
+  }
+
+.profile-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+}
+
+.section-profile-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: darkslategray;
+}
+
+.section-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: center;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: darkslategray;
+}
+
+.section-link{
+    text-decoration: none;
+    font-weight: 300;
+    color:grey;
+}
+
+.pre{
+    padding: 0;
+    margin: 0;
+}
+.footer {
+    background-color:lightslategray;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 300;
+    color: white;
+}
+
+.rss{
+    width: 125px;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+
+

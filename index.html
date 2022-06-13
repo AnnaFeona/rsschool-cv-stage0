@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+    <!--  Add fomts  -->
 
+</head>
+<body>
+    <!-- header  -->
+    <header class ="header">
+        <div class = "container">
+            <!--  Navigation  -->
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
+                </ul>
+              </nav>
+
+        </div>
+    </header>
+
+    <!-- main  -->
+    <main class = "main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/avatar.jpg" class = "profile-logo" alt="My photo">    
+                <div class ="container section-profile-title">
+                    <h1>Hanna Hlavatskikh</h1>
+                    <h3>Junior front-end developer</h3>
+                </div>     
+            </section>
+            
+            <section class="section" id="contacts">
+                <h2 class = "section-title">Contacts</h2>
+                <ul>
+                    <li>Minsk, Belarus</li>
+                    <li>Email: <a href="mailto:glavatskikh.anna@gmail.com" class = "section-link">glavatskikh.anna@gmail.com</a></li>
+                    <li>Github: <a href="https://github.com/AnnaFeona" class = "section-link">AnnaFeona</a></li>
+                    <li>Discord: <a href="https://discord.gg" class = "section-link">Hanna Hlavatskikh #1090</a></li>
+                </ul>
+            </section>
+
+            <section class="section" id="summary">
+                <h2 class = "section-title">Summary</h2>
+                <p>
+                     Hello, I'm Hanna. I'm studiing in The Rolling Scope School.
+                    So I want to become a front-end developer. I am found of math and I 
+                    like to solve interesting tasks.
+                </p>
+         
+            </section>
+            <section class="section" id="skills">
+                <h2 class = "section-title">Skills</h2>
+                <ul>
+                    <li>C ++ Basic</li>
+                    <li>HTML 5 Basic</li>
+                    <li>CSS3 Basic</li>
+                    <li>JS basic</li>
+                    <li>Git Basic</li>
+                </ul>
+         
+            </section>
+            <section class="section" id="code">
+                <h2 class = "section-title">Code</h2>
+                <pre class = "pre"> 
+<code>function getDivisorsCnt(n){
+    let temp = 1;
+        if ( n > 1 ){
+            for (let i = 2; i &lt;= n ; i++){
+                if ( (n % i) == 0 ){
+                    temp++;
+                }
+            }
+        }
+    return temp;
+    }
+                    </code>
+                </pre>
+            </section>
+
+            <section class="section" id="courses">
+                <h2 class = "section-title">Courses</h2>
+                <ul>
+                    <li>RSSchool JS FE Preschool</li>
+                    <li>Learn.Javascript.ru</li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class = "section-title">Education</h2>
+                <p>Belorussian State University. Radiophysics</p>
+            </section>
+            <section class="section" id="projects">
+                <h2 class = "section-title">Projects</h2>
+                <ul>
+                    <li>My <a href="https://github.com/AnnaFeona/rsschool-cv" class = "section-link">first project</a> in RSSchool</li>
+                </ul>
+
+            </section>
+            <section class="section" id="languages">
+                <h2 class = "section-title">languages</h2>
+                <ul>
+                    <li>Russian - native speaker</li>
+                    <li>English - A2</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <!--  foorter-->
+    <footer class = "footer">
+        <div class ="container footer-container">
+            <div>
+                 2022
+                <a href="https://github.com/AnnaFeona" class="footer-link">AnnaFeona</a>
+            </div>
+            <div>
+                <a href="https://rs.school/js/" class = "footer-link">The Rolling Scopes</a>
+                <img src="./assets/img/rs_school_js.svg" alt="RSS Logo" class = "rss">
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
