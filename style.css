@@ -10,13 +10,17 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:center;
     font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color:ghostwhite;
+    color:gray;
   }
 
 .header {
     background-color:lightslategray;
-    border: 1px solid red;
 }
 
 .nav-list {
@@ -37,12 +41,84 @@ body {
     color: white; 
 }
 
-.footer {
+.main {
+    margin-bottom: 0 auto;
+}
+
+.main-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.section {
+    width: 50%;
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #7c7a86;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #ccc9d7;
+  }
+
+.profile-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+}
+
+.section-profile-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: darkslategray;
+}
+
+.section-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: center;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: darkslategray;
+}
+
+.section-link{
+
+}
+
+.footer {
     background-color:lightslategray;
     color: white;
     font-size: 20px;
+    padding: 20px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-link{
@@ -54,11 +130,9 @@ body {
 }
 
 .rss{
-    width: 120px;
+    width: 125px;
     height: auto;
-    background-image: url(./assets/img/rs_school_js.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
+    vertical-align: middle;
 }
 
 
