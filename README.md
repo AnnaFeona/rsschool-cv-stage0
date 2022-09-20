@@ -1,3 +1,2 @@
-# rsschool-cv
-https://annafeona.github.io/rsschool-cv/cv
-https://annafeona.github.io/rsschool-cv/
+https://github.com/AnnaFeona/rsschool-cv/cv
+https://github.com/AnnaFeona/rsschool-cv/
